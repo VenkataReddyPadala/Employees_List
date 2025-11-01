@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  padding: 0px 22px;
+}
+.container > div > h1 {
+  margin-block: 30px;
+}
+.input_fields {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.input_fields > div {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  gap: 5px;
+}
+
+.input_fields > div > input {
+  padding: 7px 15px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+form > button {
+  width: 100px;
+  padding: 7px 15px;
+  margin-top: 20px;
+}
+.content_info > * {
+  margin-block: 20px;
+}
+.content_info > p:last-child {
+  color: rgb(128, 128, 128);
+}
+.error {
+  color: red;
+  font-size: 18px;
+}
+.success {
+  color: green;
+}
+
+.employees {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.empdata {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.employees > button {
+  width: 100px;
+  height: 30px;
+  margin-right: 12px;
+  border-radius: 22px;
+  border: none;
+}
